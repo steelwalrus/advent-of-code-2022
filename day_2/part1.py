@@ -1,8 +1,6 @@
 with open('2022/day_2/input.txt', 'r') as file:
     f = file.read().strip()
     inputs = [i.split(' ') for i in f.splitlines()]
-    # print(inputs)
-
 
 def play_rps(pair: list):
     #         rock paper scissors
@@ -42,7 +40,6 @@ def play_rps(pair: list):
 
     outcome = outcome_table[lookup_codes[first]][lookup_codes[second]]
     result = outcome + score_lookup[second]
-    # print(f"{first}({score_lookup[first]}) ({pair[0]})[{lookup_codes[first]}] + {second} ({pair[1]})[{lookup_codes[second]}]   (({outcome})) = {result}")
     return result
 
 permutations = []
@@ -51,12 +48,8 @@ score = 0
 for play in inputs:
     if play not in permutations:
         permutations.append(play)
-        print(f"{play}  {play_rps(play)}")
     score += play_rps(play)
 
 print(score)
 
 # 15572
-
-# total score = sum of scores for each round
-

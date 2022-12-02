@@ -6,7 +6,7 @@ class Elf:
         return sum(self.calories)
 
 
-with open('2022/day_1/input.txt', 'r') as file:
+with open('day_1/input.txt', 'r') as file:
     f = file.read().strip()
     elf_calories = f.splitlines()
 

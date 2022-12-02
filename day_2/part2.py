@@ -1,4 +1,4 @@
-with open('2022/day_2/input.txt', 'r') as file:
+with open('day_2/input.txt', 'r') as file:
     f = file.read().strip()
     inputs = [i.split(' ') for i in f.splitlines()]
 

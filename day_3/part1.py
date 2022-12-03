@@ -16,7 +16,7 @@ class Rucksack:
         return [i for i in self.compartment_a if i in self.compartment_b][0]
 
     @staticmethod
-    def get_item_priority(item: string):
+    def get_item_priority(item: str):
         return string.ascii_letters.index(item) + 1
 
 

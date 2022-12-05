@@ -27,7 +27,7 @@ def parse_columns(input_stacks: list, stack_depth: int):
 
 instructions = []
 
-with open('day_4/input.txt', 'r') as file:
+with open('day_5/input.txt', 'r') as file:
     f = file.read()
     inputs = f.splitlines()
 

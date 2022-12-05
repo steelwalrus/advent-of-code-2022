@@ -26,5 +26,3 @@ elves = sorted(elves, key=lambda elf: elf.get_total_calories(), reverse=True)
 r = sum(e.get_total_calories() for e in elves[0:3])
 
 print(r)
-
-# answer 201491

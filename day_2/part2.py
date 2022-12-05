@@ -53,5 +53,3 @@ for play in inputs:
     score += play_rps(play)
 
 print(score)
-
-# 16098

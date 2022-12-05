@@ -19,6 +19,3 @@ for pair in inputs:
         overlaps += 1
 
 print(overlaps)
-
-# 530
-

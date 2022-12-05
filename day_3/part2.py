@@ -41,5 +41,3 @@ for group in zip(*(iter(i for i in inputs),) * size_of_group):
                     break
 
 print(priority_sum)
-
-# 2499

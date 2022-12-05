@@ -29,5 +29,3 @@ for elf in elves:
     )
 
 print(max(sum_of_calories_per_elf))
-
-# answer = 67622

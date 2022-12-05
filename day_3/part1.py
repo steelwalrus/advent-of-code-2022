@@ -28,5 +28,3 @@ for c in inputs:
     priority_sum += value
 
 print(priority_sum)
-
-# 7793
